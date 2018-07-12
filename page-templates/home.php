@@ -9,14 +9,11 @@ get_header();
 
 			<!-- Page Header-->
 			<section class="module-header full-height parallax bg-dark bg-dark-30 text-left" id="home" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/homepage-hero.jpg">
-				<div class="container">
-          <div class="row">
-            <div class="col-xs-4 mx-auto">
-                <img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/adamchampagne-profile.jpg" id="mugshot" class="rounded-circle wow fadeIn" alt="Adam Champagne Profile Photo" style="visibility: visible; animation-name: fadeIn;">
-            </div>
-          </div>
+
+        <div class="container">
 					<div class="row">
 						<div class="col-md-12">
+              <img src="https://adamchampagne.com/wp-content/themes/adam-champagne/assets/img/adamchampagne-profile.jpg" id="mugshot" class="rounded-circle wow fadeIn" alt="Adam Champagne Profile Photo" style="visibility: visible; animation-name: fadeIn;" width="150" height="150">
 							<h1 class="h1 m-b-15">Adam <br/> Champagne</h1>
 							<h1 class="h6 m-b-60">Web Developer & Multimedia Designer</h1>
 							<p><a class="btn btn-brand" href="#"><span>Learn More</span></a></p>
@@ -32,7 +29,7 @@ get_header();
 					<div class="row">
 						<div class="col-md-12">
 							<div class="m-title c-align">
-								<h2>Daniel Raleway</h2>
+								<h2>Adam Champagne</h2>
 								<h6>Visual Designer & Front-end Developer</h6>
 							</div>
 						</div>

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*! -----------------------------------------------------------------
+[Custom Stylesheet]
+
+Project:     Adam Champagne
+Version:     2.3.1
+
+------------------------------------------------------------------
+[General Styles]
+*/
+
+
+
+#mugshot {
+  border: 5px solid #fff;
+  margin: 10px auto;
+}

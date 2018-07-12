@@ -21,6 +21,8 @@ function adam_champagne_scripts() {
   wp_enqueue_style( 'ac-animate', get_stylesheet_directory_uri() . '/assets/css/animate.css', array(), 1111  );
   // Core CSS
   wp_enqueue_style( 'ac-template', get_stylesheet_directory_uri() . '/assets/css/template.css', array(), 1111  );
+  // Custom CSS
+  wp_enqueue_style( 'ac-custom-css', get_stylesheet_directory_uri() . '/assets/css/template.css', array(), 1111  );
 
   
   // Enqueu Scripts
