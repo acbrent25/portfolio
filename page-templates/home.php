@@ -8,13 +8,18 @@ get_header();
 		<div class="wrapper">
 
 			<!-- Page Header-->
-			<section class="module-header full-height parallax bg-dark bg-dark-30 text-left" id="home" data-background="assets/images/module-1.jpg">
+			<section class="module-header full-height parallax bg-dark bg-dark-30 text-left" id="home" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/homepage-hero.jpg">
 				<div class="container">
+          <div class="row">
+            <div class="col-xs-4 mx-auto">
+                <img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/adamchampagne-profile.jpg" id="mugshot" class="rounded-circle wow fadeIn" alt="Adam Champagne Profile Photo" style="visibility: visible; animation-name: fadeIn;">
+            </div>
+          </div>
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="h1 m-b-15">Daniel <br/> Raleway</h1>
-							<h1 class="h6 m-b-60">Visual designer & Front-end developer</h1>
-							<p><a class="btn btn-brand" href="#"><span>Download resume</span></a></p>
+							<h1 class="h1 m-b-15">Adam <br/> Champagne</h1>
+							<h1 class="h6 m-b-60">Web Developer & Multimedia Designer</h1>
+							<p><a class="btn btn-brand" href="#"><span>Learn More</span></a></p>
 						</div>
 					</div>
 				</div>
@@ -522,7 +527,7 @@ get_header();
 									</div>
 								</div>
 							</form>
-							<!-- Ajax response-->
+							<!-- A≈jax response-->
 							<div class="ajax-response text-center" id="contact-response"></div>
 						</div>
 					</div>
