@@ -8,17 +8,17 @@ get_header();
 		<div class="wrapper">
 
 			<!-- Page Header-->
-			<section class="module-header full-height parallax bg-dark bg-dark-30 text-left" id="home" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/homepage-hero.jpg">
-
-        <div class="container">
+			<section class="module-header full-height parallax bg-dark bg-dark-30" data-background="#" data-jarallax-video="https://www.youtube.com/watch?v=CjBoK8f47EI&index=39&list=PLGmxyVGSCDKvmLInHxJ9VdiwEb82Lxd2E">
+				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-              <img src="https://adamchampagne.com/wp-content/themes/adam-champagne/assets/img/adamchampagne-profile.jpg" id="mugshot" class="rounded-circle wow fadeIn" alt="Adam Champagne Profile Photo" style="visibility: visible; animation-name: fadeIn;" width="150" height="150">
-							<h1 class="h1 m-b-15">Adam <br/> Champagne</h1>
-							<h1 class="h6 m-b-60">Web Developer & Multimedia Designer</h1>
-							<p><a class="btn btn-brand" href="#"><span>Learn More</span></a></p>
+							<h1 class="h1 m-b-15">Adam Champagne</h1>
+							<h1 class="h6">Web Developer & Multimedia Designer</h1>
 						</div>
 					</div>
+				</div>
+				<div class="mouse-icon">
+					<div class="wheel"></div>
 				</div>
 			</section>
 			<!-- Page Header end-->
@@ -27,46 +27,46 @@ get_header();
 			<section class="module" id="profile">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<div class="m-title c-align">
-								<h2>Adam Champagne</h2>
-								<h6>Visual Designer & Front-end Developer</h6>
-							</div>
-						</div>
-					</div>
 					<div class="row">
 						<div class="col-md-4">
-							<p><img src="assets/images/im.jpg" alt=""></p>
+							<p><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/adam-champagne.jpg" alt="Adam Champagne"></p>
 						</div>
 						<div class="col-md-4">
 							<h5>Profesional Profile</h5>
-							<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
-							<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+							<p>Full stack web developer, multimedia designer and marketing professional for more than 10 years, with a range of experience including project conceptualization, print and web design, front and backend development, project management, excellent organizational, leadership, problem-solving and communication skills.</p>
+    							
+    							<p>I have worked with national standup paddling brands and many local businesses including four, top-25 restaurants.</p>
 						</div>
 						<div class="col-md-4">
 							<h5>My Skills</h5>
 							<div class="progress-item">
-								<div class="progress-title">Gulp</div>
+								<div class="progress-title">HTML / CSS</div>
 								<div class="progress">
-									<div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
+									<div class="progress-bar progress-bar-brand" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
 								</div>
 							</div>
 							<div class="progress-item">
-								<div class="progress-title">UX Design</div>
+								<div class="progress-title">PHP</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-brand" aria-valuenow="75" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
+								</div>
+							</div>
+							<div class="progress-item">
+								<div class="progress-title">JAVASCIRPT / JQUERY</div>
 								<div class="progress">
 									<div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
 								</div>
 							</div>
 							<div class="progress-item">
-								<div class="progress-title">HTML / CSS3 / SASS</div>
+								<div class="progress-title">WORDPRESS THEMES / PLUGIN DEVELOPMENT</div>
 								<div class="progress">
-									<div class="progress-bar progress-bar-brand" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
+									<div class="progress-bar progress-bar-brand" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
 								</div>
 							</div>
 							<div class="progress-item">
-								<div class="progress-title">Gulp</div>
+								<div class="progress-title">PHOTOSHOP / ILLUSTRATOR / INDESIGN</div>
 								<div class="progress">
-									<div class="progress-bar progress-bar-brand" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
+									<div class="progress-bar progress-bar-brand" aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="pb-number-box"><span class="pb-number"></span>%</span></div>
 								</div>
 							</div>
 						</div>
@@ -148,7 +148,7 @@ get_header();
 						<div class="grid-sizer"></div>
 						<div class="portfolio-item js-tilt branding photo large">
 							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-5.jpg"></div>
+								<div class="portfolio-img-wrap" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/portfolio/g-5.jpg"></div>
 								<div class="portfolio-overlay"></div>
 								<div class="portfolio-caption">
 									<h5 class="portfolio-title">Raleway</h5>
@@ -158,7 +158,7 @@ get_header();
 						</div>
 						<div class="portfolio-item js-tilt web design ">
 							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-1.jpg"></div>
+								<div class="portfolio-img-wrap" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/portfolio/g-1.jpg"></div>
 								<div class="portfolio-overlay"></div>
 								<div class="portfolio-caption">
 									<h5 class="portfolio-title">Hilltop</h5>
@@ -168,7 +168,7 @@ get_header();
 						</div>
 						<div class="portfolio-item js-tilt photo web ">
 							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-4.jpg"></div>
+								<div class="portfolio-img-wrap" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/portfolio/g-4.jpg"></div>
 								<div class="portfolio-overlay"></div>
 								<div class="portfolio-caption">
 									<h5 class="portfolio-title">Popcorn</h5>
@@ -178,7 +178,7 @@ get_header();
 						</div>
 						<div class="portfolio-item js-tilt design branding ">
 							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-3.jpg"></div>
+								<div class="portfolio-img-wrap" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/portfolio/g-3.jpg"></div>
 								<div class="portfolio-overlay"></div>
 								<div class="portfolio-caption">
 									<h5 class="portfolio-title">Color</h5>
@@ -188,7 +188,7 @@ get_header();
 						</div>
 						<div class="portfolio-item js-tilt design photo ">
 							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-2.jpg"></div>
+								<div class="portfolio-img-wrap" data-background="<?php echo get_template_directory_uri(  ) ?>/assets/images/portfolio/g-2.jpg"></div>
 								<div class="portfolio-overlay"></div>
 								<div class="portfolio-caption">
 									<h5 class="portfolio-title">Bicycles</h5>
@@ -276,73 +276,6 @@ get_header();
 			</section>
 			<!-- Services end-->
 
-			<!-- Resume-->
-			<section class="module module-gray" id="resume">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="m-title c-align">
-								<h2>Resume</h2>
-								<h6>My education and experience</h6>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<ul class="timeline">
-								<li>
-									<div class="timeline-badge"></div>
-									<div class="timeline-panel">
-										<div class="timeline-preview"><img src="assets/images/features/1.jpg" alt=""></div>
-										<div class="timeline-body">
-											<h5 class="timeline-title">Computer science</h5>
-											<h6 class="timeline-description">Stanford University | 1998 - 2004</h6>
-											<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="timeline-badge"></div>
-									<div class="timeline-panel">
-										<div class="timeline-preview"><img src="assets/images/features/2.jpg" alt=""></div>
-										<div class="timeline-body">
-											<h5 class="timeline-title">Visual designer</h5>
-											<h6 class="timeline-description">Stanford University | 2004 - 2008</h6>
-											<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="timeline-badge"></div>
-									<div class="timeline-panel">
-										<div class="timeline-preview"><img src="assets/images/features/3.jpg" alt=""></div>
-										<div class="timeline-body">
-											<h5 class="timeline-title">Frontend-developer</h5>
-											<h6 class="timeline-description">Design Corporation | 2008 - 2012</h6>
-											<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="timeline-badge"></div>
-									<div class="timeline-panel">
-										<div class="timeline-preview"><img src="assets/images/features/4.jpg" alt=""></div>
-										<div class="timeline-body">
-											<h5 class="timeline-title">Lead Developer</h5>
-											<h6 class="timeline-description">Creative Design Studio | 2012 - 2017</h6>
-											<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.</p>
-										</div>
-									</div>
-								</li>
-								<div class="timeline-top"></div>
-							</ul>
-							<div class="text-center"><a class="btn btn-lg btn-gray" href="#"><span>Download CV</span></a></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- Resume end-->
-
 			<!-- Clients and Testimonials-->
 			<section class="module module-dark">
 				<div class="container">
@@ -351,10 +284,10 @@ get_header();
 					<div class="row">
 						<div class="col-md-12">
 							<div class="owl-carousel clients-carousel">
-								<div class="client"><a href="#"><img src="assets/images/clients/logo-1.png" alt=""></a></div>
-								<div class="client"><a href="#"><img src="assets/images/clients/logo-2.png" alt=""></a></div>
-								<div class="client"><a href="#"><img src="assets/images/clients/logo-3.png" alt=""></a></div>
-								<div class="client"><a href="#"><img src="assets/images/clients/logo-4.png" alt=""></a></div>
+								<div class="client"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/clients/logo-1.png" alt=""></a></div>
+								<div class="client"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/clients/logo-2.png" alt=""></a></div>
+								<div class="client"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/clients/logo-3.png" alt=""></a></div>
+								<div class="client"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/clients/logo-4.png" alt=""></a></div>
 							</div>
 						</div>
 					</div>
@@ -422,7 +355,7 @@ get_header();
 
 							<!-- Post-->
 							<article class="post">
-								<div class="post-preview"><a href="#"><img src="assets/images/blog/1.jpg" alt=""></a>
+								<div class="post-preview"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/blog/1.jpg" alt=""></a>
 									<div class="post-category"><a href="#">Lifestyle</a></div>
 								</div>
 								<div class="post-wrapper">
@@ -441,7 +374,7 @@ get_header();
 
 							<!-- Post-->
 							<article class="post">
-								<div class="post-preview"><a href="#"><img src="assets/images/blog/3.jpg" alt=""></a>
+								<div class="post-preview"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/blog/3.jpg" alt=""></a>
 									<div class="post-category" data-background-color="#ffbb44"><a href="#">Science</a></div>
 								</div>
 								<div class="post-wrapper">
@@ -460,7 +393,7 @@ get_header();
 
 							<!-- Post-->
 							<article class="post">
-								<div class="post-preview"><a href="#"><img src="assets/images/blog/5.jpg" alt=""></a>
+								<div class="post-preview"><a href="#"><img src="<?php echo get_template_directory_uri(  ) ?>/assets/images/blog/5.jpg" alt=""></a>
 									<div class="post-category" data-background-color="#4CAF50"><a href="#">Business</a></div>
 								</div>
 								<div class="post-wrapper">
@@ -533,7 +466,7 @@ get_header();
 
 			<!-- Map-->
 			<section class="maps-container">
-				<div class="map" data-addresses="[48.859822, 2.352647]" data-info="[Lorem ipsum dolor sit amet.]" data-icon="assets/images/map-icon.png" data-zoom="15"></div>
+				<div class="map" data-addresses="[48.859822, 2.352647]" data-info="[Lorem ipsum dolor sit amet.]" data-icon="<?php echo get_template_directory_uri(  ) ?>/assets/images/map-icon.png" data-zoom="15"></div>
 			</section>
 			<!-- Map end-->
 
